@@ -203,7 +203,7 @@ class SelectWidget(BaseWidget):
         for token, title in value:
             option = etree.SubElement(self.el, 'option')
             option.attrib['value'] = token
-            option.text = title
+            option.text = title.decode('utf-8')
 
     def _del_items(self):
         """Removing options from inside of elements."""
