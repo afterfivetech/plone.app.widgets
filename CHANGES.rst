@@ -1,6 +1,14 @@
 Changelog
 =========
 
+2.3.1+afive.1 (2020-05-17)
+------------------
+
+Bug fixes:
+
+- Decode option as utf-8 so select widget accepts special characters
+
+
 2.3.1 (2018-03-10)
 ------------------
 
